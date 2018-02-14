@@ -1,0 +1,269 @@
+[
+  {
+    "source": "^Verify whether Login page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Login page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.017332454,
+          "median": 0.017332454
+        },
+        "durations": [
+          {
+            "duration": 0.017332454,
+            "location": "resources/features/Rebalance.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter Username and Password as \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter Username and Password as \"HS108\" and \"HS10812\"",
+        "aggregatedDurations": {
+          "average": 9.389766036,
+          "median": 9.389766036
+        },
+        "durations": [
+          {
+            "duration": 9.389766036,
+            "location": "resources/features/Rebalance.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Create Rebalance Batch page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Create Rebalance Batch page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.017355681,
+          "median": 0.017355681
+        },
+        "durations": [
+          {
+            "duration": 0.017355681,
+            "location": "resources/features/Rebalance.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch Browser and Navigate to Envestnet URL$",
+    "steps": [
+      {
+        "name": "Launch Browser and Navigate to Envestnet URL",
+        "aggregatedDurations": {
+          "average": 2.852212566,
+          "median": 2.852212566
+        },
+        "durations": [
+          {
+            "duration": 2.852212566,
+            "location": "resources/features/Rebalance.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Create Rebalance Batch Button$",
+    "steps": [
+      {
+        "name": "Click on Create Rebalance Batch Button",
+        "aggregatedDurations": {
+          "average": 3.067138884,
+          "median": 3.067138884
+        },
+        "durations": [
+          {
+            "duration": 3.067138884,
+            "location": "resources/features/Rebalance.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Manage Button$",
+    "steps": [
+      {
+        "name": "Click on Manage Button",
+        "aggregatedDurations": {
+          "average": 1.708711926,
+          "median": 1.708711926
+        },
+        "durations": [
+          {
+            "duration": 1.708711926,
+            "location": "resources/features/Rebalance.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Home page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Home page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.011730345,
+          "median": 0.011730345
+        },
+        "durations": [
+          {
+            "duration": 0.011730345,
+            "location": "resources/features/Rebalance.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Manage page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Manage page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.015175553,
+          "median": 0.015175553
+        },
+        "durations": [
+          {
+            "duration": 0.015175553,
+            "location": "resources/features/Rebalance.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]    {
+        "name": "Verify whether Login page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.100392867,
+          "median": 0.100392867
+        },
+        "durations": [
+          {
+            "duration": 0.100392867,
+            "location": "resources/features/Rebalance.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Search Button$",
+    "steps": [
+      {
+        "name": "Click on Search Button",
+        "aggregatedDurations": {
+          "average": 3.599948035,
+          "median": 3.599948035
+        },
+        "durations": [
+          {
+            "duration": 3.599948035,
+            "location": "resources/features/Rebalance.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Rebalance - Selected Accounts page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Rebalance - Selected Accounts page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.010051495,
+          "median": 0.010051495
+        },
+        "durations": [
+          {
+            "duration": 0.010051495,
+            "location": "resources/features/Rebalance.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Create Rebalance Batch Button$",
+    "steps": [
+      {
+        "name": "Click on Create Rebalance Batch Button",
+        "aggregatedDurations": {
+          "average": 2.593349311,
+          "median": 2.593349311
+        },
+        "durations": [
+          {
+            "duration": 2.593349311,
+            "location": "resources/features/Rebalance.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select Account Number as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select Account Number as \"B40005363\"",
+        "aggregatedDurations": {
+          "average": 0.153666111,
+          "median": 0.153666111
+        },
+        "durations": [
+          {
+            "duration": 0.153666111,
+            "location": "resources/features/Rebalance.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select Investment Program Option as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select Investment Program Option as \"Northwestern Mutual Signature Choice\"",
+        "aggregatedDurations": {
+          "average": 0.150733524,
+          "median": 0.150733524
+        },
+        "durations": [
+          {
+            "duration": 0.150733524,
+            "location": "resources/features/Rebalance.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Manage page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Manage page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.010422052,
+          "median": 0.010422052
+        },
+        "durations": [
+          {
+            "duration": 0.010422052,
+            "location": "resources/features/Rebalance.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

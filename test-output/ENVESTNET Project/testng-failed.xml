@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [ENVESTNET Project]">
+  <test name="Rebalance Test Case">
+    <classes>
+      <class name="runner.RunCukes"/>
+    </classes>
+  </test> <!-- Rebalance Test Case -->
+  <test name="Rebalance Test Case(failed)">
+    <classes>
+      <class name="runner.RunCukes">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.RunCukes -->
+    </classes>
+  </test> <!-- Rebalance Test Case(failed) -->
+</suite> <!-- Failed suite [ENVESTNET Project] -->
