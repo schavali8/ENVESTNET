@@ -4,7 +4,6 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = {"resources/features/Rebalance.feature"} ,
-				 monochrome = true,
 				 glue = "steps",
 				 //tags = "@rebalance",
 				 plugin= {"pretty",

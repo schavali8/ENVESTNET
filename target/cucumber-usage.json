@@ -1,34 +1,16 @@
 [
   {
-    "source": "^Verify whether Login page is correctly opened or not$",
-    "steps": [
-      {
-        "name": "Verify whether Login page is correctly opened or not",
-        "aggregatedDurations": {
-          "average": 0.017332454,
-          "median": 0.017332454
-        },
-        "durations": [
-          {
-            "duration": 0.017332454,
-            "location": "resources/features/Rebalance.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "source": "^Enter Username and Password as \"([^\"]*)\" and \"([^\"]*)\"$",
     "steps": [
       {
         "name": "Enter Username and Password as \"HS108\" and \"HS10812\"",
         "aggregatedDurations": {
-          "average": 9.389766036,
-          "median": 9.389766036
+          "average": 3.263403895,
+          "median": 3.263403895
         },
         "durations": [
           {
-            "duration": 9.389766036,
+            "duration": 3.263403895,
             "location": "resources/features/Rebalance.feature:8"
           }
         ]
@@ -41,13 +23,31 @@
       {
         "name": "Verify whether Create Rebalance Batch page is correctly opened or not",
         "aggregatedDurations": {
-          "average": 0.017355681,
-          "median": 0.017355681
+          "average": 0.007018961,
+          "median": 0.007018961
         },
         "durations": [
           {
-            "duration": 0.017355681,
+            "duration": 0.007018961,
             "location": "resources/features/Rebalance.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on RebalanceButton Button$",
+    "steps": [
+      {
+        "name": "Click on RebalanceButton Button",
+        "aggregatedDurations": {
+          "average": 1.769453468,
+          "median": 1.769453468
+        },
+        "durations": [
+          {
+            "duration": 1.769453468,
+            "location": "resources/features/Rebalance.feature:20"
           }
         ]
       }
@@ -59,31 +59,13 @@
       {
         "name": "Launch Browser and Navigate to Envestnet URL",
         "aggregatedDurations": {
-          "average": 2.852212566,
-          "median": 2.852212566
+          "average": 1.257232011,
+          "median": 1.257232011
         },
         "durations": [
           {
-            "duration": 2.852212566,
+            "duration": 1.257232011,
             "location": "resources/features/Rebalance.feature:6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Click on Create Rebalance Batch Button$",
-    "steps": [
-      {
-        "name": "Click on Create Rebalance Batch Button",
-        "aggregatedDurations": {
-          "average": 3.067138884,
-          "median": 3.067138884
-        },
-        "durations": [
-          {
-            "duration": 3.067138884,
-            "location": "resources/features/Rebalance.feature:12"
           }
         ]
       }
@@ -95,12 +77,12 @@
       {
         "name": "Click on Manage Button",
         "aggregatedDurations": {
-          "average": 1.708711926,
-          "median": 1.708711926
+          "average": 1.130931102,
+          "median": 1.130931102
         },
         "durations": [
           {
-            "duration": 1.708711926,
+            "duration": 1.130931102,
             "location": "resources/features/Rebalance.feature:10"
           }
         ]
@@ -113,12 +95,12 @@
       {
         "name": "Verify whether Home page is correctly opened or not",
         "aggregatedDurations": {
-          "average": 0.011730345,
-          "median": 0.011730345
+          "average": 0.01251216,
+          "median": 0.01251216
         },
         "durations": [
           {
-            "duration": 0.011730345,
+            "duration": 0.01251216,
             "location": "resources/features/Rebalance.feature:9"
           }
         ]
@@ -126,32 +108,53 @@
     ]
   },
   {
-    "source": "^Verify whether Manage page is correctly opened or not$",
+    "source": "^Enter Batch Description as \"([^\"]*)\"$",
     "steps": [
       {
-        "name": "Verify whether Manage page is correctly opened or not",
+        "name": "Enter Batch Description as \"Batch Execution\"",
         "aggregatedDurations": {
-          "average": 0.015175553,
-          "median": 0.015175553
+          "average": 0.400694615,
+          "median": 0.400694615
         },
         "durations": [
           {
-            "duration": 0.015175553,
-            "location": "resources/features/Rebalance.feature:11"
+            "duration": 0.400694615,
+            "location": "resources/features/Rebalance.feature:17"
           }
         ]
       }
     ]
-  }
-]    {
-        "name": "Verify whether Login page is correctly opened or not",
+  },
+  {
+    "source": "^Click on Continue Button$",
+    "steps": [
+      {
+        "name": "Click on Continue Button",
         "aggregatedDurations": {
-          "average": 0.100392867,
-          "median": 0.100392867
+          "average": 1.416687241,
+          "median": 1.416687241
         },
         "durations": [
           {
-            "duration": 0.100392867,
+            "duration": 1.416687241,
+            "location": "resources/features/Rebalance.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Login page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Login page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.013843931,
+          "median": 0.013843931
+        },
+        "durations": [
+          {
+            "duration": 0.013843931,
             "location": "resources/features/Rebalance.feature:7"
           }
         ]
@@ -164,12 +167,12 @@
       {
         "name": "Click on Search Button",
         "aggregatedDurations": {
-          "average": 3.599948035,
-          "median": 3.599948035
+          "average": 3.312533778,
+          "median": 3.312533778
         },
         "durations": [
           {
-            "duration": 3.599948035,
+            "duration": 3.312533778,
             "location": "resources/features/Rebalance.feature:15"
           }
         ]
@@ -182,12 +185,12 @@
       {
         "name": "Verify whether Rebalance - Selected Accounts page is correctly opened or not",
         "aggregatedDurations": {
-          "average": 0.010051495,
-          "median": 0.010051495
+          "average": 0.011712301,
+          "median": 0.011712301
         },
         "durations": [
           {
-            "duration": 0.010051495,
+            "duration": 0.011712301,
             "location": "resources/features/Rebalance.feature:19"
           }
         ]
@@ -200,12 +203,12 @@
       {
         "name": "Click on Create Rebalance Batch Button",
         "aggregatedDurations": {
-          "average": 2.593349311,
-          "median": 2.593349311
+          "average": 1.02091523,
+          "median": 1.02091523
         },
         "durations": [
           {
-            "duration": 2.593349311,
+            "duration": 1.02091523,
             "location": "resources/features/Rebalance.feature:12"
           }
         ]
@@ -218,12 +221,12 @@
       {
         "name": "Select Account Number as \"B40005363\"",
         "aggregatedDurations": {
-          "average": 0.153666111,
-          "median": 0.153666111
+          "average": 0.100983611,
+          "median": 0.100983611
         },
         "durations": [
           {
-            "duration": 0.153666111,
+            "duration": 0.100983611,
             "location": "resources/features/Rebalance.feature:16"
           }
         ]
@@ -236,12 +239,12 @@
       {
         "name": "Select Investment Program Option as \"Northwestern Mutual Signature Choice\"",
         "aggregatedDurations": {
-          "average": 0.150733524,
-          "median": 0.150733524
+          "average": 0.099202417,
+          "median": 0.099202417
         },
         "durations": [
           {
-            "duration": 0.150733524,
+            "duration": 0.099202417,
             "location": "resources/features/Rebalance.feature:14"
           }
         ]
@@ -254,12 +257,12 @@
       {
         "name": "Verify whether Manage page is correctly opened or not",
         "aggregatedDurations": {
-          "average": 0.010422052,
-          "median": 0.010422052
+          "average": 0.006393752,
+          "median": 0.006393752
         },
         "durations": [
           {
-            "duration": 0.010422052,
+            "duration": 0.006393752,
             "location": "resources/features/Rebalance.feature:11"
           }
         ]

@@ -141,7 +141,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5744471219,
+  "duration": 5606270871,
   "status": "passed"
 });
 formatter.scenario({
@@ -250,14 +250,14 @@ formatter.match({
   "location": "RebalanceStep.launchEnvestnetURL()"
 });
 formatter.result({
-  "duration": 3078571054,
+  "duration": 1257232011,
   "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.verifyLoginPage()"
 });
 formatter.result({
-  "duration": 100392867,
+  "duration": 13843931,
   "status": "passed"
 });
 formatter.match({
@@ -274,42 +274,42 @@ formatter.match({
   "location": "RebalanceStep.enter_Username_and_Password_as_and(String,String)"
 });
 formatter.result({
-  "duration": 4983134793,
+  "duration": 3263403895,
   "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.verifyHomePage()"
 });
 formatter.result({
-  "duration": 16580536,
+  "duration": 12512160,
   "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.manageButton()"
 });
 formatter.result({
-  "duration": 1999914653,
+  "duration": 1130931102,
   "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.verifyManagePage()"
 });
 formatter.result({
-  "duration": 10422052,
+  "duration": 6393752,
   "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.createRebalanceBatchButton()"
 });
 formatter.result({
-  "duration": 2593349311,
+  "duration": 1020915230,
   "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.verifyCreateRebalanceBatch()"
 });
 formatter.result({
-  "duration": 20360110,
+  "duration": 7018961,
   "status": "passed"
 });
 formatter.match({
@@ -320,16 +320,17 @@ formatter.match({
     }
   ],
   "location": "RebalanceStep.select_Investment_Program_Option_as(String)"
-});formatter.result({
-  "duration": 613150683289,
-  "error_message": "java.lang.NullPointerException\r\n\tat steps.RebalanceStep.select_Investment_Program_Option_as(Unknown Source)\r\n\tat ✽.When Select Investment Program Option as \"Northwestern Mutual Signature Choice\"(resources/features/Rebalance.feature:14)\r\n",
-  "status": "failed"
+});
+formatter.result({
+  "duration": 99202417,
+  "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.searchButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3312533778,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -341,7 +342,8 @@ formatter.match({
   "location": "RebalanceStep.select_Account_Number_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 100983611,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -353,29 +355,32 @@ formatter.match({
   "location": "RebalanceStep.batchDescription(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 400694615,
+  "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.continueButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1416687241,
+  "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.verifyRebalanceSelectedAccounts()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 11712301,
+  "status": "passed"
 });
 formatter.match({
   "location": "RebalanceStep.rebalanceButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1769453468,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 4226402782,
-  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d64.0.3282.140)\n  (Driver info: chromedriver\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027DESKTOP-TVBMDRG\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_151\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\\Users\\Srinidhi\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: 4119a05b4e319e3932cac708ecff0454\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:343)\r\n\tat steps.Hook.TearDownTest(Hook.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
-  "status": "failed"
+  "duration": 74958044,
+  "status": "passed"
 });
 });
